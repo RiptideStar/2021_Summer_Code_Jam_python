@@ -1,0 +1,20 @@
+#allocates the number of spaces, and then puts the text in center align or left
+x=5
+print('---{:^{num1}s}---{:^{num2}s}-'.format('y', 'yy', num1=x, num2=4))
+# # ---  y  --- yy -
+print('---{:^{num1}s}---{:^{num2}s}-'.format('y', 'yy', num1=x, num2=3))
+# #---  y  ---yy -
+
+add the top of table
+
+if labels:
+add labels and then add the middle table line separator
+
+s += " | {:<{lengthOfLongestElement}s} | ".format(rows[i][j], lengthOfLongestElement=longest_elements[j]))
+
+end of loop: add an endline
+
+end of populating: add the bottom of table
+
+#print without endline
+print("geeks", end ="")
