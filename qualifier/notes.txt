@@ -10,7 +10,7 @@ add the top of table
 if labels:
 add labels and then add the middle table line separator
 
-s += " | {:<{lengthOfLongestElement}s} | ".format(rows[i][j], lengthOfLongestElement=longest_elements[j]))
+s += " | {:<{lengthOfLongestElement}s} |".format(rows[i][j], lengthOfLongestElement=longest_elements[j]))
 
 end of loop: add an endline
 
@@ -18,3 +18,4 @@ end of populating: add the bottom of table
 
 #print without endline
 print("geeks", end ="")
+
